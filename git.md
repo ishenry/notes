@@ -16,8 +16,14 @@ git commit -m "first commit"
 git remote add origin git@github.com:ishenry/notes.git
 git push -u origin master
 ```
-## push到远程仓库
+## 第一次push到远程仓库
 ```
 git remote add origin git@github.com:ishenry/notes.git
 git push -u origin master
+```
+## 提交到远程仓库
+```
+git add README.md
+git commit -am "add note"
+git push origin master
 ```
