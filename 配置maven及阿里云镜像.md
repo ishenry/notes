@@ -4,8 +4,10 @@
 2. 新建系统变量MAVEN_HOME，变量值：D:\Java\apache-maven-3.3.9
 3. 编辑系统变量Path，添加变量值：;%MAVEN_HOME%\bin
 4. 在cmd窗口输入 mvn -version检测是否安装成功。
+
 ## 配置aliyun镜像
-在D:\Program Files\apache-maven-3.3.9\conf\setting.xml文件中，找到<mirrors></mirrors>标签对。添加aliyun镜像。效果如下：
+在D:\Program Files\apache-maven-3.3.9\conf\setting.xml文件中，找到<mirrors></mirrors>标签对。
+添加aliyun镜像。效果如下：
 ```
 <mirrors>
   <mirror> 
